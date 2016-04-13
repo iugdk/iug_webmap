@@ -43,7 +43,6 @@ $("#wash").click(function(){
   var counter = 0
   projects.clearLayers()
   $.each(mydata.features, function(index,value){
-    console.log(value)
     if (value.properties.project == "wash") {
       projects.addData(value)
     }
@@ -55,7 +54,6 @@ $("#environ").click(function(){
   var counter = 0
   projects.clearLayers()
   $.each(mydata.features, function(index,value){
-    console.log(value)
     if (value.properties.project == "environ") {
       projects.addData(value)
     }
@@ -67,7 +65,6 @@ $("#food").click(function(){
   var counter = 0
   projects.clearLayers()
   $.each(mydata.features, function(index,value){
-    console.log(value)
     if (value.properties.project == "food") {
       projects.addData(value)
     }
@@ -78,7 +75,6 @@ $("#disaster").click(function(){
   var counter = 0
   projects.clearLayers()
   $.each(mydata.features, function(index,value){
-    console.log(value)
     if (value.properties.project == "disaster") {
       projects.addData(value)
     }
