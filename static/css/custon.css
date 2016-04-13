@@ -1,0 +1,19 @@
+.iug_projects{
+  height:250px;
+  width:25%;
+  float: left;
+  position: relative;
+  border: 1px solid black
+}
+
+i {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30%;
+  margin-bottom: auto;
+  height: 60px;
+  size: 250px;
+  text-align: center;
+  position: relative;
+}

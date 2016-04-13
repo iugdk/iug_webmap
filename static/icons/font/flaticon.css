@@ -1,0 +1,281 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 19/02/2016 14:44
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-a-bolt-and-a-cloud:before { content: "\f100"; }
+.flaticon-a-girl-and-a-boy:before { content: "\f101"; }
+.flaticon-a-soldier-and-a-civilian:before { content: "\f102"; }
+.flaticon-accessibility-signal-in-a-rounded-square:before { content: "\f103"; }
+.flaticon-accomodation:before { content: "\f104"; }
+.flaticon-airplane-in-a-rounded-square-with-a-cross-sign-on-it:before { content: "\f105"; }
+.flaticon-airplane-shape-in-a-rounded-square:before { content: "\f106"; }
+.flaticon-airplane-transport-silhouette-in-black-shape:before { content: "\f107"; }
+.flaticon-anchor-white-shape-inside-a-black-rounded-square:before { content: "\f108"; }
+.flaticon-anchor-with-a-minus-sign:before { content: "\f109"; }
+.flaticon-anchor-with-a-minus-sign-inside-a-rounded-square:before { content: "\f10a"; }
+.flaticon-approve-signal-on-a-route-in-perspective:before { content: "\f10b"; }
+.flaticon-approved-bridge-for-cars:before { content: "\f10c"; }
+.flaticon-approved-bridge-for-translations:before { content: "\f10d"; }
+.flaticon-approved-construction-of-a-building:before { content: "\f10e"; }
+.flaticon-approved-sign:before { content: "\f10f"; }
+.flaticon-armed-soldier-salutation-close-up-in-a-rounded-square:before { content: "\f110"; }
+.flaticon-arriving-to-the-city-concept:before { content: "\f111"; }
+.flaticon-arrow-gross-and-black-pointing-to-right:before { content: "\f112"; }
+.flaticon-ascendant-line-graphic:before { content: "\f113"; }
+.flaticon-baby-feeding-bottle:before { content: "\f114"; }
+.flaticon-baby-in-a-rounded-square:before { content: "\f115"; }
+.flaticon-boat-inside-a-rounded-square:before { content: "\f116"; }
+.flaticon-book-open-shape:before { content: "\f117"; }
+.flaticon-book-outline-in-a-rounded-square:before { content: "\f118"; }
+.flaticon-bottle-of-big-size-with-three-horizontal-lines:before { content: "\f119"; }
+.flaticon-bottle-silhouette-inside-a-rounded-square:before { content: "\f11a"; }
+.flaticon-bottle-with-three-horizontal-lines-in-a-square:before { content: "\f11b"; }
+.flaticon-building-front-with-minus-sign:before { content: "\f11c"; }
+.flaticon-building-with-a-flag-on-top:before { content: "\f11d"; }
+.flaticon-building-with-cross-symbol-on-it-inside-a-rounded-square:before { content: "\f11e"; }
+.flaticon-business-stats-pie-graphic:before { content: "\f11f"; }
+.flaticon-buttons-mechanism:before { content: "\f120"; }
+.flaticon-caduceus:before { content: "\f121"; }
+.flaticon-calendar-page-of-day-19:before { content: "\f122"; }
+.flaticon-camping-tent-in-a-rounded-square:before { content: "\f123"; }
+.flaticon-capital-c-letter-with-a-chevron-arrow-on-top-in-a-rounded-square:before { content: "\f124"; }
+.flaticon-capital-letter-c-with-a-chevron-arrow-on-top:before { content: "\f125"; }
+.flaticon-captains-wheel:before { content: "\f126"; }
+.flaticon-car-on-a-bridge-in-a-rounded-square:before { content: "\f127"; }
+.flaticon-car-on-a-bridge-with-minus-sign:before { content: "\f128"; }
+.flaticon-car-side-view-in-a-rounded-square:before { content: "\f129"; }
+.flaticon-cargo-truck-with-letter-c-on-black-square-background:before { content: "\f12a"; }
+.flaticon-cellphone-with-antenna-and-signal:before { content: "\f12b"; }
+.flaticon-cellphone-with-antenna-and-signal-in-a-rounded-square:before { content: "\f12c"; }
+.flaticon-cereals-canister-in-a-rounded-square:before { content: "\f12d"; }
+.flaticon-check-boxes-in-a-rounded-square:before { content: "\f12e"; }
+.flaticon-check-mark-white-on-black-circular-background:before { content: "\f12f"; }
+.flaticon-child-eating-food-with-a-spoon:before { content: "\f130"; }
+.flaticon-circle-between-hands:before { content: "\f131"; }
+.flaticon-circle-with-horizontal-middle-line-inside-a-rounded-square:before { content: "\f132"; }
+.flaticon-city-towers-view:before { content: "\f133"; }
+.flaticon-clipboard-with-signs-of-cross-and-approval-mark:before { content: "\f134"; }
+.flaticon-computer-monitor-and-keyboard-in-a-rounded-square:before { content: "\f135"; }
+.flaticon-couple-of-leaves-on-a-plant-branch-white-silhouettes-in-a-black-rounded-square:before { content: "\f136"; }
+.flaticon-cricket-or-lobster-silhouette-inside-a-rounded-square:before { content: "\f137"; }
+.flaticon-cross-button:before { content: "\f138"; }
+.flaticon-cross-sign-in-a-circle-in-a-rounded-square:before { content: "\f139"; }
+.flaticon-cross-sign-in-a-rounded-square:before { content: "\f13a"; }
+.flaticon-cruise-on-the-sea-frontal-view:before { content: "\f13b"; }
+.flaticon-cruise-travelling-by-the-sea-inside-a-rounded-square:before { content: "\f13c"; }
+.flaticon-cycle-represented-by-four-arrows-circle-in-a-rounded-square:before { content: "\f13d"; }
+.flaticon-dollar-symbol:before { content: "\f13e"; }
+.flaticon-dropbox-symbol-with-arrowhead-up:before { content: "\f13f"; }
+.flaticon-drought:before { content: "\f140"; }
+.flaticon-education:before { content: "\f141"; }
+.flaticon-education-access-concept:before { content: "\f142"; }
+.flaticon-education-difficulties-concept-of-an-open-book-with-a-cross-sign-on-it:before { content: "\f143"; }
+.flaticon-electroshock-risk:before { content: "\f144"; }
+.flaticon-erupting-volcano:before { content: "\f145"; }
+.flaticon-family-group-of-three-under-a-ceiling-line-inside-a-rounded-square:before { content: "\f146"; }
+.flaticon-family-of-three:before { content: "\f147"; }
+.flaticon-family-under-a-ceiling-outline:before { content: "\f148"; }
+.flaticon-female-and-male-silhouettes-with-a-vertical-line-in-the-middle:before { content: "\f149"; }
+.flaticon-filter-black-shape:before { content: "\f14a"; }
+.flaticon-filter-white-shape-inside-a-black-rounded-square:before { content: "\f14b"; }
+.flaticon-fire-flames-on-a-house-inside-a-rounded-square:before { content: "\f14c"; }
+.flaticon-first-aid-case-in-a-rounded-square:before { content: "\f14d"; }
+.flaticon-first-aid-kit-case-with-a-cross:before { content: "\f14e"; }
+.flaticon-flame-of-fire-on-a-square-background:before { content: "\f14f"; }
+.flaticon-flood-danger-for-a-house-beside-the-sea:before { content: "\f150"; }
+.flaticon-flood-risk:before { content: "\f151"; }
+.flaticon-food:before { content: "\f152"; }
+.flaticon-food-bowl-in-a-rounded-square:before { content: "\f153"; }
+.flaticon-food-cereal-bowl-and-a-money-bag:before { content: "\f154"; }
+.flaticon-food-supply:before { content: "\f155"; }
+.flaticon-fort-tower-of-vigilance:before { content: "\f156"; }
+.flaticon-four-arrows:before { content: "\f157"; }
+.flaticon-four-arrows-directed-to-circle-at-the-center:before { content: "\f158"; }
+.flaticon-gas-container-truck:before { content: "\f159"; }
+.flaticon-gas-pump:before { content: "\f15a"; }
+.flaticon-glass-with-water:before { content: "\f15b"; }
+.flaticon-grinder-in-a-rounded-square:before { content: "\f15c"; }
+.flaticon-group-of-people-in-white-a-black-rounded-square:before { content: "\f15d"; }
+.flaticon-group-of-persons-in-perspective-with-the-leader-in-front-talking:before { content: "\f15e"; }
+.flaticon-hammer-and-three-bricks-construction-symbol:before { content: "\f15f"; }
+.flaticon-hammer-on-square-background:before { content: "\f160"; }
+.flaticon-hammer-shape:before { content: "\f161"; }
+.flaticon-heat-burner-inside-a-rounded-square:before { content: "\f162"; }
+.flaticon-helicopter-and-circular-landing-strip:before { content: "\f163"; }
+.flaticon-hierarchy:before { content: "\f164"; }
+.flaticon-hill-on-a-black-square-background:before { content: "\f165"; }
+.flaticon-hill-silhouette:before { content: "\f166"; }
+.flaticon-hotel-huge-initial:before { content: "\f167"; }
+.flaticon-hotel-rounded-square-signal:before { content: "\f168"; }
+.flaticon-hotel-sign-with-a-flag-on-a-pole-inside-a-rounded-square:before { content: "\f169"; }
+.flaticon-hotel-signal-of-capital-letter:before { content: "\f16a"; }
+.flaticon-house-beside-the-sea-inside-a-rounded-square:before { content: "\f16b"; }
+.flaticon-house-near-the-sea:before { content: "\f16c"; }
+.flaticon-house-with-a-cross-symbol-in-a-rounded-square:before { content: "\f16d"; }
+.flaticon-human-prisoner-tied-hands:before { content: "\f16e"; }
+.flaticon-indian-tent-in-a-rounded-square:before { content: "\f16f"; }
+.flaticon-indian-tent-in-a-rounded-square-1:before { content: "\f170"; }
+.flaticon-indian-tent-silhouette-inside-a-rounded-square:before { content: "\f171"; }
+.flaticon-insect-bug-on-a-square-background:before { content: "\f172"; }
+.flaticon-interface-symbol-of-four-arrows-to-resize-preview-image-to-small-view-option:before { content: "\f173"; }
+.flaticon-interface-symbol-of-four-arrows-to-resize-preview-image-to-small-view-option-1:before { content: "\f174"; }
+.flaticon-islam-podium-in-a-rounded-square:before { content: "\f175"; }
+.flaticon-kitchen-utensils-inside-a-rounded-square:before { content: "\f176"; }
+.flaticon-land-and-aerial-transport-black-silhouettes:before { content: "\f177"; }
+.flaticon-land-and-aerial-transport-white-shapes-of-a-truck-and-an-airplane-in-a-rounded-black-square:before { content: "\f178"; }
+.flaticon-landslide-risk-sign-of-a-snow-mountain:before { content: "\f179"; }
+.flaticon-laptop-with-internet-connection:before { content: "\f17a"; }
+.flaticon-leader-of-a-group-with-an-empty-speech-bubble:before { content: "\f17b"; }
+.flaticon-legal-document-paper-sheet-outline-with-a-hammer-in-a-rounded-square:before { content: "\f17c"; }
+.flaticon-legal-file-document:before { content: "\f17d"; }
+.flaticon-light-bulb-inside-a-rounded-square:before { content: "\f17e"; }
+.flaticon-liquid-droplet-with-white-detail:before { content: "\f17f"; }
+.flaticon-liquid-soap-container:before { content: "\f180"; }
+.flaticon-mammal-animal-black-silhouette:before { content: "\f181"; }
+.flaticon-man-and-woman-with-a-line-separation-in-a-rounded-square:before { content: "\f182"; }
+.flaticon-man-besides-a-christmas-firework-explosion:before { content: "\f183"; }
+.flaticon-man-standing-beside-a-huge-pencil-inside-a-rounded-square:before { content: "\f184"; }
+.flaticon-man-standing-beside-a-question-mark:before { content: "\f185"; }
+.flaticon-man-standing-beside-a-xmas-fireworks-explosion:before { content: "\f186"; }
+.flaticon-man-standing-beside-an-x-symbol:before { content: "\f187"; }
+.flaticon-man-standing-beside-an-x-symbol-in-a-rounded-square-in-black-and-white:before { content: "\f188"; }
+.flaticon-medicine-capsule-symbol-on-a-square-background:before { content: "\f189"; }
+.flaticon-men-silhouettes-couple-with-one-astonished:before { content: "\f18a"; }
+.flaticon-military-base-with-flag:before { content: "\f18b"; }
+.flaticon-minus-sign-on-a-black-square-background:before { content: "\f18c"; }
+.flaticon-money-bag:before { content: "\f18d"; }
+.flaticon-monitor-and-keyboard-shapes:before { content: "\f18e"; }
+.flaticon-mosquito-insect-and-net-in-a-rounded-square:before { content: "\f18f"; }
+.flaticon-mosquito-insect-and-net-in-black:before { content: "\f190"; }
+.flaticon-mountains-landscape-in-a-rounded-square:before { content: "\f191"; }
+.flaticon-natural-rocks-collapse:before { content: "\f192"; }
+.flaticon-nfi-initials:before { content: "\f193"; }
+.flaticon-nfi-logo-in-a-rounded-square:before { content: "\f194"; }
+.flaticon-ngo-building-in-a-rounded-square:before { content: "\f195"; }
+.flaticon-non-government-organization-headquarters-with-flag:before { content: "\f196"; }
+.flaticon-not-allowed-route:before { content: "\f197"; }
+.flaticon-numbers-123-with-the-second-bigger-inside-a-rounded-square:before { content: "\f198"; }
+.flaticon-ocean-wave-shape:before { content: "\f199"; }
+.flaticon-old-man-walking-with-a-crutch:before { content: "\f19a"; }
+.flaticon-old-man-with-a-walking-stick-in-a-rounded-square:before { content: "\f19b"; }
+.flaticon-om-on-square-background:before { content: "\f19c"; }
+.flaticon-one-man-screaming-talking-to-other:before { content: "\f19d"; }
+.flaticon-open-box:before { content: "\f19e"; }
+.flaticon-open-microphone-inside-a-rounded-square:before { content: "\f19f"; }
+.flaticon-opened-email-envelope:before { content: "\f1a0"; }
+.flaticon-opened-packing-box-in-a-square:before { content: "\f1a1"; }
+.flaticon-paper-sheet-outline:before { content: "\f1a2"; }
+.flaticon-paper-sheet-transparent-with-white-outline-inside-a-black-rounded-square:before { content: "\f1a3"; }
+.flaticon-peace-talks:before { content: "\f1a4"; }
+.flaticon-pencil-and-two-white-sheets-of-paper:before { content: "\f1a5"; }
+.flaticon-person-with-big-gun-inside-a-rounded-square:before { content: "\f1a6"; }
+.flaticon-persons-in-a-business-salutation:before { content: "\f1a7"; }
+.flaticon-pie-chart-in-a-rounded-square:before { content: "\f1a8"; }
+.flaticon-police-hand-cuffs-with-chain:before { content: "\f1a9"; }
+.flaticon-police-shield:before { content: "\f1aa"; }
+.flaticon-police-shield-inside-a-rounded-square:before { content: "\f1ab"; }
+.flaticon-poor-water-supply:before { content: "\f1ac"; }
+.flaticon-portable-toilet-symbol:before { content: "\f1ad"; }
+.flaticon-portable-toilets-symbol:before { content: "\f1ae"; }
+.flaticon-price-of-food-concept:before { content: "\f1af"; }
+.flaticon-professor-teaching-on-a-blackboard-in-white-shapes-inside-a-black-rounded-square:before { content: "\f1b0"; }
+.flaticon-push-button-inside-a-rounded-square:before { content: "\f1b1"; }
+.flaticon-race:before { content: "\f1b2"; }
+.flaticon-radio-in-a-rounded-square:before { content: "\f1b3"; }
+.flaticon-raise-the-curtains-button-symbol:before { content: "\f1b4"; }
+.flaticon-ribbon-with-borders-of-thin-lines:before { content: "\f1b5"; }
+.flaticon-ribbon-with-lines-border-in-a-rounded-square:before { content: "\f1b6"; }
+.flaticon-robber-and-the-victim:before { content: "\f1b7"; }
+.flaticon-robber-entering-by-a-window:before { content: "\f1b8"; }
+.flaticon-robber-entering-by-a-window-1:before { content: "\f1b9"; }
+.flaticon-roll-and-sheet-of-paper-in-a-rounded-square:before { content: "\f1ba"; }
+.flaticon-route-perspective:before { content: "\f1bb"; }
+.flaticon-route-perspective-inside-a-rounded-square:before { content: "\f1bc"; }
+.flaticon-route-perspective-with-a-minus-sign-in-a-rounded-square:before { content: "\f1bd"; }
+.flaticon-route-with-a-minus-sign:before { content: "\f1be"; }
+.flaticon-route-with-approval-sign-in-a-rounded-square:before { content: "\f1bf"; }
+.flaticon-sailing-boats-race-silhouette-inside-a-rounded-square:before { content: "\f1c0"; }
+.flaticon-salt-container:before { content: "\f1c1"; }
+.flaticon-school:before { content: "\f1c2"; }
+.flaticon-schoolboy-carrying-a-bag:before { content: "\f1c3"; }
+.flaticon-searching-information-concept:before { content: "\f1c4"; }
+.flaticon-security-fence-for-transit:before { content: "\f1c5"; }
+.flaticon-shovel-and-ground:before { content: "\f1c6"; }
+.flaticon-shower:before { content: "\f1c7"; }
+.flaticon-signal-circle-with-an-horizontal-line:before { content: "\f1c8"; }
+.flaticon-sitting-man-with-a-crutch-inside-a-rounded-square:before { content: "\f1c9"; }
+.flaticon-sniper:before { content: "\f1ca"; }
+.flaticon-snowflake-christmas-star-shape:before { content: "\f1cb"; }
+.flaticon-snowflake-winter-shape-in-black-and-white:before { content: "\f1cc"; }
+.flaticon-speech-bubbles-silhouettes:before { content: "\f1cd"; }
+.flaticon-standing-man-and-writing-pencil:before { content: "\f1ce"; }
+.flaticon-standing-man-white-silhouette-in-a-black-rounded-square:before { content: "\f1cf"; }
+.flaticon-star-of-black-irregular-shape:before { content: "\f1d0"; }
+.flaticon-star-of-four-points-in-rotation-black-shape:before { content: "\f1d1"; }
+.flaticon-star-of-white-irregular-shape-inside-a-black-rounded-square-shape:before { content: "\f1d2"; }
+.flaticon-stocks-ascendant-graphic:before { content: "\f1d3"; }
+.flaticon-stocks-business-investigation:before { content: "\f1d4"; }
+.flaticon-stocks-graphic-with-a-magnifier-tool:before { content: "\f1d5"; }
+.flaticon-surprised-man-with-a-friend:before { content: "\f1d6"; }
+.flaticon-swimmer-in-a-rounded-square:before { content: "\f1d7"; }
+.flaticon-swimmer-in-the-sea-with-a-raised-arm:before { content: "\f1d8"; }
+.flaticon-t-shirt-inside-a-rounded-square:before { content: "\f1d9"; }
+.flaticon-tanker-truck:before { content: "\f1da"; }
+.flaticon-tent:before { content: "\f1db"; }
+.flaticon-tent-of-indian-style:before { content: "\f1dc"; }
+.flaticon-tent-width:before { content: "\f1dd"; }
+.flaticon-thermometer-temperature-control-tool-in-winter:before { content: "\f1de"; }
+.flaticon-three-folders-in-black-and-white:before { content: "\f1df"; }
+.flaticon-three-inks-drops-on-a-sheet-of-paper-inside-a-rounded-square:before { content: "\f1e0"; }
+.flaticon-tied-hands-in-a-rounded-square:before { content: "\f1e1"; }
+.flaticon-transit-fence:before { content: "\f1e2"; }
+.flaticon-transit-top-view:before { content: "\f1e3"; }
+.flaticon-transport-signal-of-a-truck-with-an-arrow-pointing-to-right:before { content: "\f1e4"; }
+.flaticon-trash-container-overflowing:before { content: "\f1e5"; }
+.flaticon-truck-side-view:before { content: "\f1e6"; }
+.flaticon-tsunami-huge-ocean-wave-in-a-rounded-square:before { content: "\f1e7"; }
+.flaticon-tunnel-pathway:before { content: "\f1e8"; }
+.flaticon-tunnel-perspective:before { content: "\f1e9"; }
+.flaticon-two-different-landscapes-one-artificial-of-building-towers-and-the-other-natural-of-mountains:before { content: "\f1ea"; }
+.flaticon-united-nations-building:before { content: "\f1eb"; }
+.flaticon-united-nations-helmet:before { content: "\f1ec"; }
+.flaticon-vintage-car-silhouette-of-side-view:before { content: "\f1ed"; }
+.flaticon-volume-bars-in-a-rounded-square-in-black-and-white:before { content: "\f1ee"; }
+.flaticon-walkie-talkie-in-a-rounded-square:before { content: "\f1ef"; }
+.flaticon-water-drop-in-a-rounded-square:before { content: "\f1f0"; }
+.flaticon-water-droplets-and-folded-paper:before { content: "\f1f1"; }
+.flaticon-water-supply:before { content: "\f1f2"; }
+.flaticon-wheat-bag:before { content: "\f1f3"; }
+.flaticon-wheat-flour-jar:before { content: "\f1f4"; }
+.flaticon-wheat-grains-on-a-bowl:before { content: "\f1f5"; }
+.flaticon-white-arrow-to-the-right:before { content: "\f1f6"; }
+.flaticon-windsock-tool:before { content: "\f1f7"; }
+.flaticon-wrench-in-rounded-square:before { content: "\f1f8"; }
+.flaticon-writting-on-an-open-notebook:before { content: "\f1f9"; }

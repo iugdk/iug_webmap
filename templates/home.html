@@ -1,0 +1,120 @@
+{% extends "base.html" %}
+
+{% block js %}
+<script>
+var data_project_countries;
+
+var myStyle = {
+    "color": "#688239",
+    "weight": 1,
+    "opacity": 0.55
+};
+
+
+
+var mymap = L.map('map').setView([0, 0], 3);
+L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+    maxZoom: 18,
+    id: 'emilrasmussen.o89lo1gc',
+    accessToken: 'pk.eyJ1IjoiZW1pbHJhc211c3NlbiIsImEiOiJjaWg2bmQ2cmIwMzR3dWprbGJkbnl3cjl0In0.obT--pzMzpPZohP1fvvOKg'
+}).addTo(mymap);
+
+
+
+var projects = L.geoJson(null, {style:myStyle}).addTo(mymap);
+
+var mydata
+
+$.getJSON("static/data/testing.geojson", function(data){
+  mydata = data
+  projects.addData(data)
+})
+
+$(".iug_projects").hover(
+  function(){
+  $(this).css("background-color","black");
+}, function(){
+  $(this).css("background-color","white");
+})
+
+
+$("#wash").click(function(){
+  var counter = 0
+  projects.clearLayers()
+  $.each(mydata.features, function(index,value){
+    console.log(value)
+    if (value.properties.project == "wash") {
+      projects.addData(value)
+    }
+  })
+})
+
+
+$("#environ").click(function(){
+  var counter = 0
+  projects.clearLayers()
+  $.each(mydata.features, function(index,value){
+    console.log(value)
+    if (value.properties.project == "environ") {
+      projects.addData(value)
+    }
+  })
+})
+
+
+$("#food").click(function(){
+  var counter = 0
+  projects.clearLayers()
+  $.each(mydata.features, function(index,value){
+    console.log(value)
+    if (value.properties.project == "food") {
+      projects.addData(value)
+    }
+  })
+})
+
+$("#disaster").click(function(){
+  var counter = 0
+  projects.clearLayers()
+  $.each(mydata.features, function(index,value){
+    console.log(value)
+    if (value.properties.project == "disaster") {
+      projects.addData(value)
+    }
+  })
+})
+</script>
+
+{% endblock %}
+
+
+{% block main %}
+
+
+<div id="map" style="height:80vh;width:100%; position:relative; float:left">
+
+</div>
+
+<div class="iug_projects" id="wash">
+  <i class="flaticon-poor-water-supply"></i>
+</div>
+
+
+<div class="iug_projects" id="environ">
+    <i class="flaticon-couple-of-leaves-on-a-plant-branch-white-silhouettes-in-a-black-rounded-square"></i>
+</div>
+
+
+<div class="iug_projects" id="food">
+    <i class="flaticon-couple-of-leaves-on-a-plant-branch-white-silhouettes-in-a-black-rounded-square"></i>
+</div>
+
+
+<div class="iug_projects" id="disaster">
+    <i class="flaticon-filter-black-shape"></i>
+</div>
+
+
+
+{% endblock %}
